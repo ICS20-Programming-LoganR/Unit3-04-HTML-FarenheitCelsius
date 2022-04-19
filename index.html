@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Unit2-02 pyramid">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Logan Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <!-- style -->
+         <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-indigo.min.css" />
+    <!-- title -->
+    <title>Farenheit to Celsius in JS</title>
+  </head>
+  <h1>Converting Farenheit to Celsius</h1>
+  <b>
+  <p>Have you every been in America and thought to yourself, "Farenheit is awful. The numbers are so unnecessarily high." then you are in luck.</p>
+    <p>Fill out the textfield to convert your unnecessarily high temperature to the much better unit of temperature, celsius.</p>
+  </b>
+  <!-- script -->
+    <script src="./js/script.js"></script>
+  <!-- textfield -->
+          <p>
+      <form action="javascript: convert()">
+        <label for="Farenheit">Temperature (F)</label>
+        <input type="number" step="0.01" id="farenheit" placeholder="Temperature"><br><br>
+        <!-- Accent-colored raised button with ripple -->
+<input type="submit" button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      <!-- The information is displayed here -->
+        <p>     </p>
+        <div id="answer"></div>
+      </p>
+</html>
